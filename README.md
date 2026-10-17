@@ -13,11 +13,21 @@ It only changes CSS layout. It does **not** collect data, make network requests,
 
 > Unofficial. Not affiliated with or endorsed by Songsterr. All trademarks belong to their owners.
 
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7eb30765-7bc1-4a35-bca5-fbdef1dc6d46" alt="Songsterr Float Overview" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bb21fcd-d60f-41a0-a6bd-85622c2127da" alt="Songsterr Float Player & Controls" width="48%">
+  <img src="https://github.com/user-attachments/assets/f9a72a19-0787-492d-afc2-bd1c0a2f2796" alt="Songsterr Float Panels" width="48%">
+</p>
+
 ## Install
 
 ### As a browser extension
-- **Chrome / Edge / Brave:** download `songsterr-float-extension-vX.Y.Z.zip` from [Releases](https://github.com/
-/songsterr-float/releases), unzip, open `chrome://extensions`, enable *Developer mode* → *Load unpacked* → pick the folder.
+- **Chrome / Edge / Brave:** download `songsterr-float-extension-vX.Y.Z.zip` from [Releases](https://github.com/lockiF/songsterr-float/releases), unzip, open `chrome://extensions`, enable *Developer mode* → *Load unpacked* → pick the folder.
 - **Firefox:** (store link here once published). Until then: `about:debugging#/runtime/this-firefox` → *Load Temporary Add-on* → pick `manifest.json` (temporary, removed on restart).
 
 ### As a userscript
@@ -37,12 +47,3 @@ Or tweak the generated userscript directly in Tampermonkey.
 - Desktop only; designed for wide windows (the video panel moves to the right column from 1811px).
 
 ## Build
-
-```
-node build.js
-```
-Outputs `songsterr-float.user.js`, `dist/extension/` and a zip ready for the Chrome Web Store / Firefox AMO. Requires Node 16.7+ and `zip` (macOS/Linux) or `tar` (Windows 10+).
-
-## License
-
-MIT
