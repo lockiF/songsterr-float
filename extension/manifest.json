@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Float for Songsterr (unofficial)",
+  "version": "4.0.0",
+  "description": "Unofficial layout tweak for Songsterr desktop: top pill navigation, floating bottom dock, centered panels.",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.songsterr.com/*", "https://songsterr.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "float-for-songsterr@users.noreply.github.com",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  }
+}

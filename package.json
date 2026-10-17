@@ -1,0 +1,9 @@
+{
+  "name": "songsterr-float",
+  "version": "4.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Unofficial desktop layout tweak for Songsterr: userscript + browser extension from one source",
+  "scripts": { "build": "node build.js" },
+  "config": { "repo": "lockiF/songsterr-float" }
+}
